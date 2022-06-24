@@ -204,7 +204,53 @@ body {
 }
 
 @media (max-width: 900px) {
-    body{
-        display: none;
+
+    .navbar {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        z-index: 9999999;
+        width: 100%;
+        font-size: 0.2rem;
+    }
+
+    .link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+
+    .card {
+        height: auto;
+        background: whitesmoke;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card .paras {
+        width: 100%;
+        padding: 5rem;
+    }
+
+    .image {
+        height: 30rem;
+        justify-content: center;
+        display: flex;
+    }
+
+    .carts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: 5rem; */
+        margin-left: 20%;
+        margin-top: 1rem;
+    }
+    .cart{
+    margin: 1rem;
+    }
+    .paraa{
+        margin-top: 36rem;
     }
 }
