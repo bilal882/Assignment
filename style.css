@@ -166,6 +166,10 @@ body {
     /* flex-direction: column; */
 }
 
+.span {
+    display: none;
+}
+
 .cart {
     height: 22rem;
     border: 1px solid rgba(0, 0, 0, .125);
@@ -247,10 +251,92 @@ body {
         margin-left: 20%;
         margin-top: 1rem;
     }
-    .cart{
-    margin: 1rem;
+
+    .cart {
+        margin: 1rem;
     }
-    .paraa{
+
+    .paraa {
         margin-top: 36rem;
+    }
+
+    .btn2 {
+        text-decoration: none;
+        width: 8rem;
+        height: 3rem;
+        padding: 1rem;
+        margin-top: 0rem;
+        color: white;
+        background: rgb(0, 0, 0);
+    }
+}
+
+@media (max-width:700px) {
+    .navbar {
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        z-index: 9999999;
+        width: 100%;
+        font-size: 0.2rem;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .span {
+        color: rgb(0, 0, 0);
+        height: 1rem;
+        width: 3rem;
+        background: #000;
+        cursor: pointer;
+    }
+
+    .card {
+        height: auto;
+        background: whitesmoke;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card .paras {
+        width: 100%;
+        padding: 5rem;
+    }
+
+    .image {
+        height: 30rem;
+        justify-content: center;
+        display: flex;
+    }
+
+    .carts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* margin: 5rem; */
+        margin-left: 20%;
+        margin-top: 1rem;
+    }
+
+    .cart {
+        margin: 1rem;
+    }
+
+    .paraa {
+        margin-top: 36rem;
+    }
+
+    .btn2 {
+        text-decoration: none;
+        width: 8rem;
+        height: 3rem;
+        padding: 1rem;
+        margin-top: 0rem;
+        color: white;
+        background: rgb(0, 0, 0);
     }
 }
