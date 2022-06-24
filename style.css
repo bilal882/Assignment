@@ -241,18 +241,40 @@ body {
 
 .social {
     display: flex;
-    margin: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.col {
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
 .social a {
-    color: white;
-    background: black;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     border-radius: 5rem;
 }
 
+.footer {
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background: whitesmoke;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
 .social a img {
-    height: 10px;
-    width: 10px;
+    height: 40px;
+    width: 40px;
+    color: white;
 }
 
 @media (max-width: 900px) {
@@ -319,7 +341,7 @@ body {
     }
 }
 
-@media (max-width:700px) {
+@media (max-width:500px) {
     .navbar {
         height: 3rem;
         display: flex;
@@ -329,17 +351,6 @@ body {
         z-index: 9999999;
         width: 100%;
         font-size: 0.2rem;
-    }
-
-    .link {
-        display: none;
-    }
-
-    .span {
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0;
     }
 
     .card {
@@ -385,5 +396,10 @@ body {
         margin-top: 0rem;
         color: white;
         background: rgb(0, 0, 0);
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
     }
 }
