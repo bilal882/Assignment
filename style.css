@@ -166,10 +166,6 @@ body {
     /* flex-direction: column; */
 }
 
-.span {
-    display: none;
-}
-
 .cart {
     height: 22rem;
     border: 1px solid rgba(0, 0, 0, .125);
@@ -207,6 +203,11 @@ body {
     box-shadow: 0 0 0 1px rgba(212, 211, 211, 0.125);
 }
 
+.very{
+    height: 30rem;
+    width: 100%;
+    font-size: xx-large;
+}
 @media (max-width: 900px) {
 
     .navbar {
@@ -288,11 +289,10 @@ body {
     }
 
     .span {
-        color: rgb(0, 0, 0);
-        height: 1rem;
-        width: 3rem;
-        background: #000;
-        cursor: pointer;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
     }
 
     .card {
