@@ -114,7 +114,7 @@ body {
     width: 8rem;
     height: 3rem;
     padding: 1rem;
-   /* margin-top: 1rem; */
+    /* margin-top: 1rem; */
     color: white;
     background: rgb(0, 0, 0);
 }
@@ -201,4 +201,10 @@ body {
     border-top: 5px solid rgb(255, 0, 162);
     border-right: 5px solid rgb(255, 0, 162);
     box-shadow: 0 0 0 1px rgba(212, 211, 211, 0.125);
+}
+
+@media (max-width: 900px) {
+    body{
+        display: none;
+    }
 }
